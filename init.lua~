@@ -29,6 +29,6 @@ function ssm_conv.convolve(im, patch)
 	ssm_conv.c.convolve(im_c, patch_c, w, h, r, res_c)
 	
 end
---]]
+--ъъ
 
 

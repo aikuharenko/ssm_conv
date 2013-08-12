@@ -6,10 +6,11 @@ void hello(){
 
 }
 
-void convolve(float* image, float* patch, int im_w, int im_h, int patch_w, float* res){
+void h2(){
 	printf("hello from c convolve!\n");
 
-
+//float* image, float* patch, int im_w, int im_h, int patch_w, float* res
+/*
 	int w = im_w - patch_w + 1;
 	int h = im_h - patch_w + 1;
 	int p, y, x;
@@ -22,5 +23,5 @@ void convolve(float* image, float* patch, int im_w, int im_h, int patch_w, float
 
 		}
 	}
-
+*/
 }

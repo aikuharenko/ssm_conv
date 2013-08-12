@@ -1,0 +1,2 @@
+/usr/local/lib/torchrocks/rocks/ssm_conv/1.0-0/lib/libssm_conv.so
+/usr/local/lib/torchrocks/rocks/ssm_conv/1.0-0/lua/ssm_conv/init.lua

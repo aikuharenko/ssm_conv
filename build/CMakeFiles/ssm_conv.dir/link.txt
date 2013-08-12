@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -fexceptions  -Wall -Wno-unused-function -fopenmp -O3 -DNDEBUG   -shared -Wl,-soname,libssm_conv.so -o libssm_conv.so CMakeFiles/ssm_conv.dir/ssm_conv.c.o -Wl,-rpath,:::::::::::::: 

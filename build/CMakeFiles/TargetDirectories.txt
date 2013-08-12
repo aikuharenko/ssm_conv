@@ -1,0 +1,2 @@
+/home/tema/DeepNetworks/ssm_conv/build/CMakeFiles/documentation-dok.dir
+/home/tema/DeepNetworks/ssm_conv/build/CMakeFiles/ssm_conv.dir
