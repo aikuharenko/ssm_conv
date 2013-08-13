@@ -24,8 +24,13 @@ function ssm_conv.convolve(im, patch)
 	local w = (#im)[3]
 	local h = (#im)[2]
 	local r = 3
+
 	res = torch.FloatTensor(h - r + 1, w - r + 1)
 	res_c = torch.data(res)	
+
+	local patch_cont = patch:type('torch.FloatTensor'):contiguous()	
+	local patch_c = torch.data(patch_cont)
+
 	ssm_conv.c.convolve(im_c, patch_c, w, h, r, res_c)
 	
 end
